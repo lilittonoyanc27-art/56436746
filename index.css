@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
+
+/* Custom glow animations for Pole Chudes board */
+@keyframes goldPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(234, 179, 8, 0.4), inset 0 0 10px rgba(254, 240, 138, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(234, 179, 8, 0.8), inset 0 0 18px rgba(254, 240, 138, 0.6);
+  }
+}
+
+.gold-glow {
+  animation: goldPulse 2.5s infinite ease-in-out;
+}

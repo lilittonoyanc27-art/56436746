@@ -1,0 +1,6 @@
+{
+  "name": "Поле Чудес: Fútbol Español y Armenio",
+  "description": "Интерактивная игра Поле Чудес с 30 футбольными вопросами тактики и правил. Угадывайте буквы и откройте слово CHUTAR с переводом с испанского на армянский по клику.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
